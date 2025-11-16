@@ -10,7 +10,7 @@
 
       <!-- Show instructions only before the first sample, and not after -->
       <p v-if="!state.started && state.fontIndex === 0 && !state.finished" class="instructions">
-        Read one paragraph at a time. Click <strong>Start Reading</strong> (or press <kbd>Space</kbd>) to begin the timer. When you're done, click <strong>Done Reading</strong> (or press <kbd>Space</kbd>) to record your time and move to the next font.
+        TEST-TEST Read one paragraph at a time. Click <strong>Start Reading</strong> (or press <kbd>Space</kbd>) to begin the timer. When you're done, click <strong>Done Reading</strong> (or press <kbd>Space</kbd>) to record your time and move to the next font.
       </p>
 
       <div v-if="state.started" class="text-display" v-html="currentText" ></div>
